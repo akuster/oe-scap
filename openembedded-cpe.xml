@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cpe-list xmlns="http://cpe.mitre.org/dictionary/2.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://cpe.mitre.org/dictionary/2.0 http://cpe.mitre.org/files/cpe-dictionary_2.1.xsd">
+  <cpe-item name="cpe:/o:openembedded:nodistro">
+    <title>OpenEmbedded nodistro</title>
+    <notes>
+      <note>This CPE Name represents OpenEmbedded</note>
+    </notes>
+    <check system="http://open-scap.org/page/SCE" href="openembedded-cpe-oval.xml" >oval:openembedded:def:is_openembedded</check>
+  </cpe-item>
+</cpe-list>
